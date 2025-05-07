@@ -1,4 +1,4 @@
-package LINKEDLIST;
+package LINKEDLIST.DOUBLELL;
 
 class NODE1 {
     int value;

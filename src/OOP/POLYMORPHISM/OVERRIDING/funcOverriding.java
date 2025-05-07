@@ -1,4 +1,4 @@
-package OOP.POLYMORPHISM;
+package OOP.POLYMORPHISM.OVERRIDING;
 
 class A{
     void f1(){
@@ -20,11 +20,11 @@ class B extends A{
 
 public class funcOverriding {
     public static void main(String[] args) {
-//        OOP.POLYMORPHISM.A a = new OOP.POLYMORPHISM.A();
+//        OOP.POLYMORPHISM.OVERRIDING.A a = new OOP.POLYMORPHISM.OVERRIDING.A();
 //        a.f1();
 //        a.f2();
 
-//        OOP.POLYMORPHISM.A a = new OOP.POLYMORPHISM.B();
+//        OOP.POLYMORPHISM.OVERRIDING.A a = new OOP.POLYMORPHISM.OVERRIDING.B();
 //        a.f1();
 //        a.f2();
 

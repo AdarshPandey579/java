@@ -1,18 +1,19 @@
 package LINKEDLIST.DOUBLELL;
 
-class NODE1 {
-    int value;
-    NODE1 pre;
-    NODE1 next;
-
-    NODE1(int val){
-        this.value=val;
-        this.next=null;
-        this.pre=null;
-    }
-}
-
 class doubleLL {
+
+    class NODE1 {  // Nested class .
+        int value;
+        NODE1 pre;
+        NODE1 next;
+
+        NODE1(int val){
+            this.value=val;
+            this.next=null;
+            this.pre=null;
+        }
+    }
+
     NODE1 head=null;
 //========================================================================================
 
@@ -159,6 +160,9 @@ class doubleLL {
 
 public class DLL {
     public static void main(String[] args) {
+
+//        NODE1 node = new NODE1(10);  // NODE1 class cannot access beyond doubleLL class
+
         doubleLL list = new doubleLL();
         list.InsertLast(5);  //5 <-> END
         list.InsertFirst(6);  //6 <-> 5 <-> END

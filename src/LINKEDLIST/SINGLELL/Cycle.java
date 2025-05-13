@@ -83,7 +83,7 @@ public class Cycle {
         list.InsertLast(7);
         list.InsertLast(8);
 
-        list.point(6);  // 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 3
+        list.point(6);  // 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 6
 
 
         cycle(list);

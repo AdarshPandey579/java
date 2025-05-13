@@ -2,7 +2,7 @@ package LINKEDLIST.SINGLELL;
 
 public class SLL {
     public static void main(String[] args) {
-        singleLL list = new singleLL();
+        Reverse list = new Reverse();
         list.InsertFirst(2);
         list.InsertFirst(3);
         list.InsertFirst(4);
@@ -19,8 +19,15 @@ public class SLL {
         list.DeletePosition(5);
 //        list.DeletePosition(6);
 
+        list.display();
+
+
+//        list.reverseRecursion(list.head);
+        list.reverse(singleLL.head);
 
         list.display();
+
+
 //        System.out.println(list.head.value);
     }
 }

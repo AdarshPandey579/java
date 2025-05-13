@@ -1,7 +1,7 @@
 package LINKEDLIST.CIRCULARLL;
 
 public class circularLL {
-    NODE3 head=null;
+    static NODE3 head=null;
 
 //==========================================================================================
 

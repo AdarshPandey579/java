@@ -1,7 +1,7 @@
 package LINKEDLIST.SINGLELL;
 
 public class singleLL {
-   NODE2 head = null;
+   static NODE2 head = null;  // once it got initialised it cannot change or u can remove static
 
 //-------------------------------------------------------------------------------------------
 

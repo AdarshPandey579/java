@@ -10,11 +10,11 @@ public class NESTEDtryCATCH {
         while(true){
             try{
                 System.out.print("Enter the num:");
-                a=sc.nextInt();
+                a=sc.nextInt(); // input exception
                 try{
-                    System.out.println("1000 divide by "+a+" is "+1000/a);
+                    System.out.println("1000 divide by "+a+" is "+1000/a); //ArithmeticException
                 }
-                catch (Exception e){  //ArithmeticException
+                catch (Exception e){
                     System.out.println(e);
                     break;
                 }

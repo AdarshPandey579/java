@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class MyException extends Exception{
     public String toString(){
-        return "age not 0 , 100 or negative. ";
+        return "Invalid age.";
     }
 }
 
@@ -23,6 +23,10 @@ public class customiseEXCEPTION {
                 return;
             }
         }
-        System.out.println(a);
+        if(a>=18){
+            System.out.println("Eligible for vote.");
+            return;
+        }
+        System.out.println("Not eligible for vote.");
     }
 }

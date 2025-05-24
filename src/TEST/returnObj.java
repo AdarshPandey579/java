@@ -4,12 +4,10 @@ class Test1 {
 
     int a;
 
-    Test1(int i){
+    Test1(int i){ // constructor
         a=i;
     }
-    Test1 incTen(){  // method incTen
-//        Test ob = new Test(a);
-//        ob.a+=10;
+    Test1 incTen(){  // method
 
         Test1 ob = new Test1(a+10);
         return ob;  // constructor cannot return anything.

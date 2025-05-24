@@ -14,7 +14,7 @@ class doubleLL {
         }
     }
 
-    NODE1 head=null;
+    static NODE1 head=null;
 //========================================================================================
 
     void display(){
